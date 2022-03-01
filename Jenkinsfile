@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'node --version'
 		sh 'pwd'
+		sh 'echo "hello world"'
             }
         }
     }
